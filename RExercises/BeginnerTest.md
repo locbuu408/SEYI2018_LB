@@ -5,4 +5,6 @@
 5. I would use the function list(precip,trees,mtcars)
 6. Yes it does consist of numeric data becaus eit is a type called double numeric data.
 7. mtcars[2,7]; mtcars["Mazda RX4 Wag",7];mtcars["Mazda RX4 Wag","qsec"];mtcars[2,"qsec"]
-8.
+8. precip[c("Juneau","Phoneix","Sacremento")]<-c(23,46,12)
+9. Yes there are trees that have a larger girth than volume. I found this using any(trees[,"Girth"]>trees[,"Volume"]).
+10. 2356.628
